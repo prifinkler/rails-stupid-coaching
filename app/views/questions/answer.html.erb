@@ -1,0 +1,11 @@
+<div class="border-start border-5 p-3 mb-3">
+  <%= @question %>
+  <p class="fw-light">- You</p>
+</div>
+
+<div class="border-start border-5 bg-warning p-3 mb-3" style="--bs-bg-opacity: .2;">
+  <%= @answer %>
+  <p class="fw-light">- Your Coach</p>
+</div>
+
+<%= link_to("Ask a new question", ask_path)%>
